@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agendamento Médico</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Agendamento Médico</h1>
+    <h2>Clique na especialidade desejada</h2>
+  </header>
+
+  <main>
+    <div id="especialidadesContainer"></div>
+    <div id="medicosContainer"></div>
+  </main>
+
+  <section>
+    <div id="modalAgendamento" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Agendar horário</h2>
+        <p id="infoHorario"></p>
+        <input type="text" id="nomePaciente" placeholder="Nome do paciente">
+        <button id="confirmarAgendamento">Confirmar</button>
+      </div>
+    </div>
+    
+  </section>
+  <footer class="rodape">
+    <p>&copy; 2025 Clínica Vida Saudável. Todos os direitos reservados.</p>
+    <p>Desenvolvido por Eribaldo Oliveira</p>
+    <a href="https://wa.me/5579988035219" target="_blank" class="whatsapp-button">
+      📱 Fale comigo no WhatsApp
+    </a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/pt.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
