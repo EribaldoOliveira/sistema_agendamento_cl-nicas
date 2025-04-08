@@ -1,217 +1,217 @@
-/*/*/*body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding-bottom: 100px;
-    background-color: #f0f2f5;
-    color: #333;
-  }
-  
-  header {
-    background-color: #1976d2;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  #especialidadesContainer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 20px;
-  }
-  
-  #especialidadesContainer button {
-    padding: 10px 20px;
-    background-color: #42a5f5;
-    border: none;
-    border-radius: 6px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  #especialidadesContainer button:hover {
-    background-color: #1e88e5;
-  }
-  
-  #medicosContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .medico-card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .medico-card h3 {
-    margin-top: 0;
-    margin-bottom: 12px;
-    color: #1976d2;
-  }
-  
-  .medico-detalhes {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: flex-start;
-  }*/
-  
-  .calendario {
-    flex: 1;
-    min-width: 200px;
-  }
-  
-  .horarios {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    min-width: 140px;
-    margin-left: 5%;
-  }
-  
-  .horario {
-    padding: 8px 12px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .horario:hover {
-    background-color: #388e3c;
-  }
-  
-  .horario.ocupado {
-    background-color: #e53935;
-    cursor: not-allowed;
-  }
-  
-  .pacientes {
-    flex: 1;
-    font-size: 14px;
-    color: #555;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    min-width: 150px;
-  }
-  
-  footer.rodape {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #1976d2;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    font-size: 16px;
-  }
-  
-  .whatsapp-button {
-    background-color: #25D366;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-  }
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 10;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.4);
-  }
-  
-  .modal-content {
-    background-color: #fff;
-    margin: 10% auto;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    position: relative;
-    text-align: center;
-  }
-  
-  .modal-content input {
-    width: 90%;
-    padding: 10px;
-    margin: 10px 0;
-  }
-  
-  .close {
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  .pacientes ul {
-    padding-left: 20px;
-    margin: 5px 0;
-  }
-  
-  .pacientes li {
-    margin-bottom: 4px;
-    list-style-type: disc;
-  }
-  
-  .pacientes ul {
-    padding-left: 20px;
-    margin: 5px 0;
-  }
-  
-  .pacientes li {
-    list-style-type: disc;
-    margin-bottom: 4px;
-  }
-  
-  .pacientes-titulo {
-    margin-top: 12px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .pacientes-lista {
-    list-style: none;
-    padding-left: 10px;
-    margin-top: 5px;
-  }
-  
-  .pacientes-lista li {
-    margin: 4px 0;
-    padding: 4px 8px;
-    border-left: 3px solid #4CAF50;
-    background-color: #f4f4f4;
-    border-radius: 4px;
-    font-family: sans-serif;
-  }
-  
-  
-  .pacientes-dia {
-    font-size: 0.95rem;
-    color: #666;
-    margin-top: 2px;
-    text-align: center;
-  }*/*/
+/*body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding-bottom: 100px;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+header {
+  background-color: #1976d2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#especialidadesContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px;
+}
+
+#especialidadesContainer button {
+  padding: 10px 20px;
+  background-color: #42a5f5;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#especialidadesContainer button:hover {
+  background-color: #1e88e5;
+}
+
+#medicosContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.medico-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.medico-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #1976d2;
+}
+
+.medico-detalhes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}*/
+
+.calendario {
+  flex: 1;
+  min-width: 200px;
+}
+
+.horarios {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 140px;
+  margin-left: 5%;
+}
+
+.horario {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.horario:hover {
+  background-color: #388e3c;
+}
+
+.horario.ocupado {
+  background-color: #e53935;
+  cursor: not-allowed;
+}
+
+.pacientes {
+  flex: 1;
+  font-size: 14px;
+  color: #555;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  min-width: 150px;
+}
+
+footer.rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1976d2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.modal-content input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.pacientes ul {
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.pacientes li {
+  margin-bottom: 4px;
+  list-style-type: disc;
+}
+
+.pacientes ul {
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.pacientes li {
+  list-style-type: disc;
+  margin-bottom: 4px;
+}
+
+.pacientes-titulo {
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pacientes-lista {
+  list-style: none;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.pacientes-lista li {
+  margin: 4px 0;
+  padding: 4px 8px;
+  border-left: 3px solid #4CAF50;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  font-family: sans-serif;
+}
+
+
+.pacientes-dia {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 2px;
+  text-align: center;
+}
